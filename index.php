@@ -12,10 +12,10 @@
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/lids/jqueryui/1.11.2/themes/smoothness/juery-ui.css" />
         <title>Untitled</title>
         <style>
-            body {margin: 0px;}
+            body {width:100%;}
             #bg{width: 100%;}
-            #content{position:absolute; top:0px; padding-top:50px; margin:10px;}
-            #bg_container{height:615px; overflow:hidden;}
+            #content{position:absolute; top:0px; padding-top:50px; margin:10px; width: 100%; margin-top:150px;}
+            #bg_container{height:598px; overflow:hidden;}
         </style>
     </head>
     <body>
@@ -31,13 +31,13 @@
         
     <center>
         <div id="content">
-            <div id="accordion">
-            <h6 id="1">p</h6>
-            <p> these are words</p>
-            <h6 id="2">h</h6>
-            <p> these are more words</p>
-            <h6 id="3">s</h6>
-            <p><a href="stories.html"> this is a link</a></p>
+            <div id="accordion" class="row">
+            <h6 id="1" class="row">p</h6>
+            <p class="row">pasadena high school</p>
+            <h6 id="2" class="row">h</h6>
+            <p class="row"> these are more words</p>
+            <h6 id="3" class="row">s</h6>
+            <p class="row"><a href="stories.html"> this is a link</a></p>
         </div>
         </div>
     </center>
