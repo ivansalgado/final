@@ -2,7 +2,8 @@ h6{
    font-family: 'Poiret One', cursive;
    letter-spacing: 10px;
    font-size: 30px;
-   padding: 5px;
+   padding-top: 2px;
+   padding-bottom: 2px;
    color: white;
 }
 
@@ -11,6 +12,8 @@ p{
    letter-spacing: 10px;
    font-size: 15px;
    color: white;
+   
+    width: 1366px;
 }
 
 /*#in{
@@ -66,7 +69,16 @@ body{
    font-size: 30px;
    color: white;
    float: right;
-   padding: 5px;
+   padding-top: 5px;
+}
+
+#back{
+   font-family: 'Poiret One', cursive;
+   letter-spacing: 10px;
+   font-size: 30px;
+   color: white;
+   float: left;
+   padding-top: 5px;
 }
 
 h3{
@@ -87,4 +99,10 @@ h4{
     background: black;
     opacity: 0.5;
     color: black;
+    
+    width: 1366px;
+}
+
+.me{
+    color: #757575;
 }
