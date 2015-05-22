@@ -41,37 +41,18 @@
         </div>
         </div>
     </center>
-    
-    
-    
-    
-        
-        
-        
-        
-       
-        <!-- accordion -->
-<!--    <center>    
-       
-        <div id="accordion">
-            <h6 id="1">p</h6>
-            <p>these are words</p>
-            <h6 id="2">h</h6>
-            <p>these are more words</p>
-            <h6 id="3">s</h6>
-            <p><a href="stories.html">this is a link</a></p>
-        </div>
-   
-        </center>    -->
-<!--    
-       <img src="images/insta.png">-->
         
             <a href="about.html" id="about">
             about
             </a>
        
         
-        
+<!--        <div class='loading'>
+  <div class='dot'></div>
+  <div class='dot'></div>
+  <div class='dot'></div>
+  <div class='dot'></div>
+</div>-->
         
         
         <script src="js/bootstrap.min.js"></script>
