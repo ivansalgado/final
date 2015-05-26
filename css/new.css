@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/background2.png);
+    background-image: url(../images/story.png);
 }
 
 h6{
@@ -37,7 +37,7 @@ a:hover{
     float: left;
     display: block;
     position: relative;
-    border: 4px solid #F5F5F5;
+    border: 4px solid white;
     margin: 57px;
 }
 
@@ -48,11 +48,11 @@ a:hover{
     position: relative;
     height: 208px;
     width: 208px;
-    border: 4px solid #F5F5F5;
+    border: 4px solid white;
   //  border: 4px solid white;
     margin: 57px;
-    text-decoration-color: #757575;
-    background-color: #F5F5F5;
+    text-decoration-color: black;
+    background-color: white;
   //  opacity: 0;
 }
 
@@ -63,6 +63,9 @@ a:hover{
 }
 
 
+body{
+    background-color: black;
+}
 
 #about{
    font-family: 'Poiret One', cursive;
@@ -170,4 +173,18 @@ $bgcolor: #f3bb4c;
 
 .photo{
     padding-top: 150px;
+}
+
+#to-login{
+   font-family: 'Poiret One', cursive;
+   letter-spacing: 10px;
+   font-size: 15px;
+   color: white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   padding-right: 5px;
+   border: solid;
+   border-color: white;
+   border-width: 2px;
 }
