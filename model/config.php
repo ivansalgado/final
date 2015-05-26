@@ -3,7 +3,7 @@
     session_start();
     session_regenerate_id(true);
     
-    $path = "/salgadoi-blog/";
+    $path = "/Final/";
     
     $host = "localhost";
     $username  = "root";

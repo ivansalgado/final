@@ -36,7 +36,15 @@ $("document").ready(function(){
             function() {
                 $(this).fadeTo('slow', 1);
             });
-            
+
+    
+    $('#log').hover(
+            function() {
+                $(this).fadeTo('slow', 0);
+            },
+            function() {
+                $(this).fadeTo('slow', 1);
+            });
             
             
             $('#see').hover(

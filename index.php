@@ -19,46 +19,50 @@
         </style>
     </head>
     <body>
-       
-        
-        
-        
-        
-        
+
+
+
+
+
+
         <div id="bg_container">
             <video id="bg" src="video/MOVIE.m4v" autoplay="true" loop="true" muted="true"></video>
         </div>
-        
+
     <center>
         <div id="content">
             <div id="accordion">
-            <h6 id="1">p</h6>
-            <p>pasadena high school</p>
-            <h6 id="2">h</h6>
-            <p>hear our stories</p>
-            <h6 id="3">s</h6>
-            <p><a href="stories.html" id='see'>see who we are </a></p>
-        </div>
+                <h6 id="1">p</h6>
+                <p>pasadena high school</p>
+                <h6 id="2">h</h6>
+                <p>hear our stories</p>
+                <h6 id="3">s</h6>
+                <p><a href="stories.html" id='see'>see who we are </a></p>
+            </div>
         </div>
     </center>
-        
-            <a href="about.html" id="about">
-            about
-            </a>
-       
-        
-<!--        <div class='loading'>
-  <div class='dot'></div>
-  <div class='dot'></div>
-  <div class='dot'></div>
-  <div class='dot'></div>
-</div>-->
-        
+
+    <a href="about.html" id="about">
+        about
+    </a>
+
+    <a href="user-post.php" id="log">
+        log in
+    </a>
+
+
+    <!--        <div class='loading'>
+      <div class='dot'></div>
+      <div class='dot'></div>
+      <div class='dot'></div>
+      <div class='dot'></div>
+    </div>-->
+
 
 
     <iframe width="0" height="0" src="https://www.youtube.com/embed/skJGjYtnFO8?autoplay=1&amp;loop=1;controls=0&amp;showinfo=0&amp;disableannotaions=1&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=bg" frameborder="0" allowfullscreen></iframe>
 
-        <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="scripts.js"></script>
-    </body>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
 </html>

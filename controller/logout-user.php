@@ -4,4 +4,4 @@
     unset($_SESSION["unauthenticated"]);
     //return to index once logged out
     session_destroy();
-    header("Location: " . $path . "index.php");
+    header("Location: " . $path . "user-post.php");
