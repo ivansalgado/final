@@ -87,18 +87,20 @@ h3{
    letter-spacing: 10px;
    font-size: 30px;
    padding: 5px;
+   color: black;
 }
 
 h4{
    font-family: 'Poiret One', cursive;
    letter-spacing: 10px;
    font-size: 15px;
+   color: black;
   
 }
 
 #accordion{
     background: black;
-    opacity: 0.5;
+    opacity: 0.8;
     color: black;
     
     width: 1366px;
