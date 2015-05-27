@@ -46,7 +46,7 @@
         about
     </a>
 
-    <a href="user-post.php" id="log">
+    <a href="login.php" id="log">
         log in
     </a>
 
