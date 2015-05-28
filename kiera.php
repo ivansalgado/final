@@ -31,7 +31,7 @@
 
         <!--kiera's monologue-->
         <div>
-            <video width="0" height="0" src="voices/kiera" autoplay="true"></video>
+            <video width="0" height="0" src="voices/kname" autoplay="true"></video>
         </div>
 
 

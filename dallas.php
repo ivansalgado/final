@@ -31,7 +31,7 @@
     <body>
         <!--dallas's monologue-->
         <div>
-            <video width="0" height="0" src="voices/jack" autoplay="true"></video>
+            <video width="0" height="0" src="voices/dallas" autoplay="true"></video>
         </div>
 
 
