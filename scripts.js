@@ -97,7 +97,7 @@ function mouseOverMe4() {
 function mouseOutMe4() {
     $("#accordion");
 }
-//I honestly don't know what this is or if it even serves a purpose, but my website doesn't work without it so I'm just gonna leave it here
+//I honestly don't know what this is or if it even serves a purpose, but my website seems to not work without it so I'm just gonna leave it here
 function mouseOverMe15() {
     $("#accordian").css("background-color", "#e0e0e0");
 }
