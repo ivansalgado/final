@@ -3,13 +3,13 @@
     require_once(__DIR__ . "/../controller/login-verify.php");
     
     if(!authenticateUser()){
-        header("Location: " . $path . "user-post.php");
+        header("Location: " . $path . "index.php");
         die();
     }
     
     //links to all google, css, and jquery files
     echo "<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>";
-    echo "<link rel='shortcut icon' type='image/x-icon' href='ico/p.ico'>";
+    echo "<link rel='shortcut icon' type='image/x-icon' href='ico/b.ico'>";
     echo "<link type='text/css' rel='stylesheet' href='../css/bootstrap-theme.css'>";
     echo "<link type='text/css' rel='stylesheet' href='../css/bootstrap.css'>";
     echo "<link type='text/css' rel='stylesheet' href='../css/custom-css.css' />";
@@ -22,26 +22,27 @@
 ?>
 <!--submits posts-->
 <div class="jumbotron">
-<h1>Create a Post</h1>
+<h1>write your story</h1>
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <!--name your post-->
     <div>
-        <label for="title">name: </label>
-        <input type="text" name="title" />
+        <label for="title">name </label>
+        <input id="inp" type="text" name="title" />
     </div>
     <!--type your post-->
     <div>
-        <label for="post">story: </label>
+        <label for="post">story </label>
         <textarea name="post"></textarea>
     </div>
     <!--submit your post-->
     <div>
-        <button type="submit">Submit</button>
+        <button type="submit">submit</button>
     </div>
 </form>
 </div>
 
 
+<!--jquery scripts-->
 <?php
  echo "<script src='js/bootstrap.min.js'></script>";
  echo "<script type='text/javascript' src='scripts.js'></script>";

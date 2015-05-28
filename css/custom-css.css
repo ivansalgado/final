@@ -202,3 +202,51 @@ $bgcolor: #f3bb4c;
 #phs{
     padding: 15px;
 }
+
+
+#to-reg{
+    font-family: 'Poiret One', cursive;
+   letter-spacing: 10px;
+   font-size: 15px;
+   color: white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   padding-right: 5px;
+   border: solid;
+   border-color: white;
+   border-width: 2px;
+}
+
+#but{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+   letter-spacing: 15px;
+   padding-left: 18px;
+}
+#button{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+   letter-spacing: 15px;
+   padding-left: 18px;
+   margin-left: 4px;
+}
+
+#inp{
+    border: solid;
+   border-color: white;
+   border-width: 4px;
+}
+
+#login{
+    padding-top: 200px;
+}
+
+
+#register{
+    padding-top: 175px;
+}

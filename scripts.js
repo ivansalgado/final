@@ -28,6 +28,14 @@ $("document").ready(function(){
                 $(this).fadeTo('slow', 1);
             });
             
+            $('#to-reg').hover(
+            function() {
+                $(this).fadeTo('slow', 0);
+            },
+            function() {
+                $(this).fadeTo('slow', 1);
+            });
+            
             
     $('#about').hover(
             function() {

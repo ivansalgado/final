@@ -47,7 +47,7 @@
     </a>
 
     <a href="login.php" id="log">
-        log in
+        sign in
     </a>
 
 

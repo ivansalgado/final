@@ -9,15 +9,10 @@
 ?>
 
 <!--allows users to post (when logged in)-->
-<nav>
-    <ul>
-        <li>
-            <a href="<?php echo $path . "post.php" ?>"><button type="button" class="btn btn-default"><h5 id="s">write your story</h5></button></a>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <a href="<?php echo $path . "/../controller/logout-user.php" ?>"><button type="button" class="btn btn-default"><h5 id="s">log Out</h5></button></a>
-        </li>
-    </ul>
-</nav>
+
+        
+<a href="<?php echo $path . "post.php" ?>"><button type="button" class="btn btn-default"><h3>begin writing</3></button></a>
+        
+  
+            <a href="<?php echo $path . "/../controller/logout-user.php" ?>"><button type="button" class="btn btn-default"><h3>sign out</h3></button></a>
+       
