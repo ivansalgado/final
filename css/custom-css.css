@@ -16,10 +16,6 @@ p{
     width: 1366px;
 }
 
-/*#in{
-    padding-top: 200px;
-}*/
-
 
 a{
     color: white;
@@ -110,58 +106,6 @@ h4{
     color: #757575;
 }
 
-/*body{ background-color: #3b3b3b; }
-
-
-// Variables
-$color: #fff;
-$delay: .2s;
-$size: 6px;
-$dots: 4;
-$bgcolor: #f3bb4c;
-
-// Code
-.loading{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 111px;
-  height: 28px;
-  overflow: hidden;
-  background: $bgcolor;
-  border: 1px solid $bgcolor;
-  border-radius: 20px;
-  
-  .dot{
-    position: absolute;
-    top: 45%;
-    padding: $size/2;
-    border-radius: 50%;
-    background: $color;
-    animation: animIn 1s ease-in-out 0s infinite;
-    
-    $i: 0s;
-    @for $level from 0 to $dots {
-      &:nth-child(#{$level + 1}) { animation-delay: $i; }
-      $i: $i + $delay;
-    }
-    
-  }
-}
-        
-@keyframes animIn {
-  0% {
-    transform: translateX(0px);
-    opacity: 1;
-  }    
-  
-  50%{ opacity: 1; }
-  
-  100%{
-    transform: translateX(100px);
-    opacity: 1;
-  }
-}*/
 
 #blue{
     opacity: 0;

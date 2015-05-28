@@ -22,7 +22,7 @@
     if($query){
         //creates user and allows the new user to post
         echo "Successfully created user: $username";
-        header("Location: " . $path . "/../index.php");
+        header("Location: " . $path . "/../user-post.php");
     }
     
     //tells whether there was an error iin creating a new user

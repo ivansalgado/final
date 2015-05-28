@@ -14,27 +14,39 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/lids/jqueryui/1.11.2/themes/smoothness/juery-ui.css" />
         <style>
+            //dimensions of the picture
             body {margin: 0px;}
             #bg{width: 100%;}
             #content{position:absolute; top:0px; padding-top:50px; width: 1366px; margin-top:170px;}
             #bg_container{height:615px; overflow:hidden;}
         </style>
     </head>
+
+    <!--picture of jack's name-->
     <div id="bg_container">
-    <img id="bg" src="images/jack.png"/>
+        <img id="bg" src="images/jack.png"/>
     </div>
+
     <body>
+
+        <!--jack's monologue-->
         <div>
             <video width="0" height="0" src="voices/jack" autoplay="true"></video>
         </div>
-        
+
+
+        <!--background music-->
         <iframe width="0" height="0" src="https://www.youtube.com/embed/RzCcA5rRHDo?autoplay=1&amp;playlist=bg" loop="true" frameborder="0" allowfullscreen></iframe>
-<div>
-    <a href="stories.html" id="back">
-            back
+        <div>
+
+            <!--back button-->
+            <a href="stories.html" id="back">
+                back
             </a>
         </div>
+
+        <!--bootstrap and java scripts-->
         <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="scripts.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>
