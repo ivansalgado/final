@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>the phs experience</title>
@@ -19,8 +13,28 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/lids/jqueryui/1.11.2/themes/smoothness/juery-ui.css" />
+        <style>
+            body {margin: 0px;}
+            #bg{width: 100%;}
+            #content{position:absolute; top:0px; padding-top:50px; width: 1366px; margin-top:170px;}
+            #bg_container{height:615px; overflow:hidden;}
+        </style>
     </head>
+    <div id="bg_container">
+    <img id="bg" src="images/jack.png"/>
+    </div>
     <body>
-        <div>TODO write content</div>
+        <div>
+            <video width="0" height="0" src="voices/jack" autoplay="true"></video>
+        </div>
+        
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/RzCcA5rRHDo?autoplay=1&amp;playlist=bg" loop="true" frameborder="0" allowfullscreen></iframe>
+<div>
+    <a href="stories.html" id="back">
+            back
+            </a>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
     </body>
 </html>

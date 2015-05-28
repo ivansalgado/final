@@ -60,7 +60,7 @@
 
 
 
-    <iframe width="0" height="0" src="https://www.youtube.com/embed/skJGjYtnFO8?autoplay=1&amp;loop=1;controls=0&amp;showinfo=0&amp;disableannotaions=1&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=bg" frameborder="0" allowfullscreen></iframe>
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/skJGjYtnFO8?autoplay=1&amp;loop=1&amp;controls=0&amp;showinfo=0&amp;disableannotaions=1&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=bg" loop="true" frameborder="0" allowfullscreen></iframe>
 
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
